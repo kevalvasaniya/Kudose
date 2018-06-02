@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5901FF5520B3F7240002E9E2 /* UserNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901FF5420B3F7240002E9E2 /* UserNameVC.swift */; };
+		5901FF5720B3F7610002E9E2 /* UserEmailIDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901FF5620B3F7610002E9E2 /* UserEmailIDVC.swift */; };
+		5901FF5A20B3F7C90002E9E2 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901FF5920B3F7C90002E9E2 /* UserDefaultManager.swift */; };
+		5901FF5D20B3F7E30002E9E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901FF5C20B3F7E30002E9E2 /* Constants.swift */; };
+		5901FF6220B3F7FA0002E9E2 /* WebService-Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901FF5F20B3F7FA0002E9E2 /* WebService-Prefix.swift */; };
+		5901FF6320B3F7FA0002E9E2 /* HttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901FF6020B3F7FA0002E9E2 /* HttpRequestManager.swift */; };
+		5901FF6420B3F7FA0002E9E2 /* WebServicesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901FF6120B3F7FA0002E9E2 /* WebServicesCollection.swift */; };
+		5901FF6920B41C9C0002E9E2 /* MainTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901FF6820B41C9C0002E9E2 /* MainTabbarVC.swift */; };
+		5901FF6C20B42E8B0002E9E2 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901FF6B20B42E8B0002E9E2 /* BaseVC.swift */; };
+		5901FF6F20B42F020002E9E2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5901FF6E20B42F020002E9E2 /* HomeVC.swift */; };
+		593EC12A20BD2211006232F0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593EC12620BD220E006232F0 /* Bolts.framework */; };
+		593EC12B20BD2211006232F0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593EC12720BD220F006232F0 /* FBSDKLoginKit.framework */; };
+		593EC12C20BD2211006232F0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593EC12820BD2210006232F0 /* FBSDKShareKit.framework */; };
+		593EC12D20BD2211006232F0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593EC12920BD2211006232F0 /* FBSDKCoreKit.framework */; };
+		593EC12F20BFA6CE006232F0 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 593EC12E20BFA6CE006232F0 /* LoadingCell.xib */; };
+		593EC13120BFA6DA006232F0 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593EC13020BFA6DA006232F0 /* LoadingCell.swift */; };
+		593EC13320BFB5B0006232F0 /* CommentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593EC13220BFB5B0006232F0 /* CommentsCell.swift */; };
+		593EC13520C0141E006232F0 /* ExploreDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593EC13420C0141E006232F0 /* ExploreDetailsVC.swift */; };
+		595226E820B7DCF500ABBD47 /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595226E720B7DCF500ABBD47 /* NewsFeedCell.swift */; };
+		595226EA20B810CC00ABBD47 /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595226E920B810CC00ABBD47 /* ExploreVC.swift */; };
+		595226EC20B81F5300ABBD47 /* CreatePostForExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595226EB20B81F5300ABBD47 /* CreatePostForExploreVC.swift */; };
+		595226EE20B83ADC00ABBD47 /* ChatUserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595226ED20B83ADC00ABBD47 /* ChatUserListCell.swift */; };
+		595226F220B95EAC00ABBD47 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595226F120B95EAC00ABBD47 /* UserProfileVC.swift */; };
+		595226F420B98A3200ABBD47 /* FilterPostCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595226F320B98A3200ABBD47 /* FilterPostCollectionCell.swift */; };
+		598F6F2820C105F000DF701F /* ChoosePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F6F2720C105F000DF701F /* ChoosePasswordVC.swift */; };
 		59EDF70720B3EFB60042B028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDF70620B3EFB60042B028 /* AppDelegate.swift */; };
 		59EDF70920B3EFB60042B028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDF70820B3EFB60042B028 /* ViewController.swift */; };
 		59EDF70C20B3EFB60042B028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EDF70A20B3EFB60042B028 /* Main.storyboard */; };
@@ -14,6 +39,23 @@
 		59EDF71120B3EFB60042B028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EDF70F20B3EFB60042B028 /* LaunchScreen.storyboard */; };
 		59EDF71C20B3EFB60042B028 /* KudoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDF71B20B3EFB60042B028 /* KudoseTests.swift */; };
 		59EDF72720B3EFB60042B028 /* KudoseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EDF72620B3EFB60042B028 /* KudoseUITests.swift */; };
+		59EDF73820B3F09A0042B028 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EDF73720B3F09A0042B028 /* User.storyboard */; };
+		59EEB80A20B66A8B00D23471 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEB80920B66A8B00D23471 /* ForgotPasswordVC.swift */; };
+		59EEB80C20B66AAE00D23471 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEB80B20B66AAE00D23471 /* SignupVC.swift */; };
+		59EEB80E20B66AC600D23471 /* UserBioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEB80D20B66AC600D23471 /* UserBioVC.swift */; };
+		59EEB81020B66AFB00D23471 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEB80F20B66AFB00D23471 /* SignInVC.swift */; };
+		59EEB81220B66B1D00D23471 /* ChooseUserNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEB81120B66B1D00D23471 /* ChooseUserNameVC.swift */; };
+		59EEB81420B66BA500D23471 /* AllKeys_Msgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEB81320B66BA500D23471 /* AllKeys_Msgs.swift */; };
+		59EEB81620B6C7C300D23471 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEB81520B6C7C300D23471 /* CreatePostVC.swift */; };
+		59EEB81C20B6CBEC00D23471 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEB81B20B6CBEC00D23471 /* NotificationVC.swift */; };
+		59EEB81E20B6CC8D00D23471 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEB81D20B6CC8D00D23471 /* NotificationCell.swift */; };
+		59EEB82020B6D30D00D23471 /* ChatUserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEB81F20B6D30D00D23471 /* ChatUserListVC.swift */; };
+		59EF90CB20BA77410058AF94 /* CommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF90CA20BA77410058AF94 /* CommentsVC.swift */; };
+		59EFED0C20B582DE00C0CE86 /* FilterPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFED0B20B582DE00C0CE86 /* FilterPostVC.swift */; };
+		59EFED0E20B5839A00C0CE86 /* FilterPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFED0D20B5839A00C0CE86 /* FilterPostCell.swift */; };
+		59EFED1020B593DE00C0CE86 /* ChooseInterestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFED0F20B593DE00C0CE86 /* ChooseInterestVC.swift */; };
+		59EFED1220B5958D00C0CE86 /* ChooseInterestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFED1120B5958D00C0CE86 /* ChooseInterestCell.swift */; };
+		60DBF95602096EDD9939E962 /* Pods_Kudose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3097CDC40271E0CE81A8F5 /* Pods_Kudose.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +75,47 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5901FF6620B3F9970002E9E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		23E7EE78F467CF8EDBB82470 /* Pods-Kudose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kudose.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kudose/Pods-Kudose.debug.xcconfig"; sourceTree = "<group>"; };
+		2C3097CDC40271E0CE81A8F5 /* Pods_Kudose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kudose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E0A9746CF438124D46D796 /* Pods-Kudose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kudose.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kudose/Pods-Kudose.release.xcconfig"; sourceTree = "<group>"; };
+		5901FF5420B3F7240002E9E2 /* UserNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameVC.swift; sourceTree = "<group>"; };
+		5901FF5620B3F7610002E9E2 /* UserEmailIDVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEmailIDVC.swift; sourceTree = "<group>"; };
+		5901FF5920B3F7C90002E9E2 /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		5901FF5C20B3F7E30002E9E2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5901FF5F20B3F7FA0002E9E2 /* WebService-Prefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebService-Prefix.swift"; sourceTree = "<group>"; };
+		5901FF6020B3F7FA0002E9E2 /* HttpRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestManager.swift; sourceTree = "<group>"; };
+		5901FF6120B3F7FA0002E9E2 /* WebServicesCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServicesCollection.swift; sourceTree = "<group>"; };
+		5901FF6820B41C9C0002E9E2 /* MainTabbarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabbarVC.swift; sourceTree = "<group>"; };
+		5901FF6B20B42E8B0002E9E2 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		5901FF6E20B42F020002E9E2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		593EC12620BD220E006232F0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		593EC12720BD220F006232F0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		593EC12820BD2210006232F0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		593EC12920BD2211006232F0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		593EC12E20BFA6CE006232F0 /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		593EC13020BFA6DA006232F0 /* LoadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		593EC13220BFB5B0006232F0 /* CommentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCell.swift; sourceTree = "<group>"; };
+		593EC13420C0141E006232F0 /* ExploreDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreDetailsVC.swift; sourceTree = "<group>"; };
+		595226E720B7DCF500ABBD47 /* NewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
+		595226E920B810CC00ABBD47 /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
+		595226EB20B81F5300ABBD47 /* CreatePostForExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostForExploreVC.swift; sourceTree = "<group>"; };
+		595226ED20B83ADC00ABBD47 /* ChatUserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUserListCell.swift; sourceTree = "<group>"; };
+		595226F120B95EAC00ABBD47 /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
+		595226F320B98A3200ABBD47 /* FilterPostCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPostCollectionCell.swift; sourceTree = "<group>"; };
+		598F6F2720C105F000DF701F /* ChoosePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePasswordVC.swift; sourceTree = "<group>"; };
 		59EDF70320B3EFB60042B028 /* Kudose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kudose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59EDF70620B3EFB60042B028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59EDF70820B3EFB60042B028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +129,22 @@
 		59EDF72220B3EFB60042B028 /* KudoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KudoseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59EDF72620B3EFB60042B028 /* KudoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KudoseUITests.swift; sourceTree = "<group>"; };
 		59EDF72820B3EFB60042B028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59EDF73720B3F09A0042B028 /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		59EEB80920B66A8B00D23471 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		59EEB80B20B66AAE00D23471 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		59EEB80D20B66AC600D23471 /* UserBioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBioVC.swift; sourceTree = "<group>"; };
+		59EEB80F20B66AFB00D23471 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		59EEB81120B66B1D00D23471 /* ChooseUserNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseUserNameVC.swift; sourceTree = "<group>"; };
+		59EEB81320B66BA500D23471 /* AllKeys_Msgs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllKeys_Msgs.swift; sourceTree = "<group>"; };
+		59EEB81520B6C7C300D23471 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		59EEB81B20B6CBEC00D23471 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		59EEB81D20B6CC8D00D23471 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		59EEB81F20B6D30D00D23471 /* ChatUserListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUserListVC.swift; sourceTree = "<group>"; };
+		59EF90CA20BA77410058AF94 /* CommentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsVC.swift; sourceTree = "<group>"; };
+		59EFED0B20B582DE00C0CE86 /* FilterPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPostVC.swift; sourceTree = "<group>"; };
+		59EFED0D20B5839A00C0CE86 /* FilterPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPostCell.swift; sourceTree = "<group>"; };
+		59EFED0F20B593DE00C0CE86 /* ChooseInterestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseInterestVC.swift; sourceTree = "<group>"; };
+		59EFED1120B5958D00C0CE86 /* ChooseInterestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseInterestCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +152,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				593EC12D20BD2211006232F0 /* FBSDKCoreKit.framework in Frameworks */,
+				593EC12C20BD2211006232F0 /* FBSDKShareKit.framework in Frameworks */,
+				60DBF95602096EDD9939E962 /* Pods_Kudose.framework in Frameworks */,
+				593EC12A20BD2211006232F0 /* Bolts.framework in Frameworks */,
+				593EC12B20BD2211006232F0 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +177,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03B61183035400CA619AFFB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C3097CDC40271E0CE81A8F5 /* Pods_Kudose.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5901FF5320B3F7030002E9E2 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				598F6F2720C105F000DF701F /* ChoosePasswordVC.swift */,
+				5901FF5420B3F7240002E9E2 /* UserNameVC.swift */,
+				59EEB80920B66A8B00D23471 /* ForgotPasswordVC.swift */,
+				59EEB80B20B66AAE00D23471 /* SignupVC.swift */,
+				59EEB80D20B66AC600D23471 /* UserBioVC.swift */,
+				59EEB80F20B66AFB00D23471 /* SignInVC.swift */,
+				59EEB81120B66B1D00D23471 /* ChooseUserNameVC.swift */,
+				5901FF5620B3F7610002E9E2 /* UserEmailIDVC.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		5901FF5820B3F7BC0002E9E2 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				5901FF5920B3F7C90002E9E2 /* UserDefaultManager.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		5901FF5B20B3F7D90002E9E2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				59EEB81320B66BA500D23471 /* AllKeys_Msgs.swift */,
+				5901FF5C20B3F7E30002E9E2 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5901FF5E20B3F7EF0002E9E2 /* WebserviceHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5901FF6020B3F7FA0002E9E2 /* HttpRequestManager.swift */,
+				5901FF5F20B3F7FA0002E9E2 /* WebService-Prefix.swift */,
+				5901FF6120B3F7FA0002E9E2 /* WebServicesCollection.swift */,
+			);
+			path = WebserviceHelper;
+			sourceTree = "<group>";
+		};
+		5901FF6720B41C800002E9E2 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				5901FF6820B41C9C0002E9E2 /* MainTabbarVC.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		5901FF6A20B42E590002E9E2 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				5901FF6B20B42E8B0002E9E2 /* BaseVC.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		5901FF6D20B42ED90002E9E2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				593EC13020BFA6DA006232F0 /* LoadingCell.swift */,
+				593EC12E20BFA6CE006232F0 /* LoadingCell.xib */,
+				59EF90CA20BA77410058AF94 /* CommentsVC.swift */,
+				593EC13220BFB5B0006232F0 /* CommentsCell.swift */,
+				595226E720B7DCF500ABBD47 /* NewsFeedCell.swift */,
+				59EEB81520B6C7C300D23471 /* CreatePostVC.swift */,
+				59EFED1120B5958D00C0CE86 /* ChooseInterestCell.swift */,
+				59EFED0F20B593DE00C0CE86 /* ChooseInterestVC.swift */,
+				59EFED0D20B5839A00C0CE86 /* FilterPostCell.swift */,
+				59EFED0B20B582DE00C0CE86 /* FilterPostVC.swift */,
+				5901FF6E20B42F020002E9E2 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		593EC12520BD21DB006232F0 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				593EC12620BD220E006232F0 /* Bolts.framework */,
+				593EC12920BD2211006232F0 /* FBSDKCoreKit.framework */,
+				593EC12720BD220F006232F0 /* FBSDKLoginKit.framework */,
+				593EC12820BD2210006232F0 /* FBSDKShareKit.framework */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
 		59EDF6FA20B3EFB60042B028 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +279,8 @@
 				59EDF71A20B3EFB60042B028 /* KudoseTests */,
 				59EDF72520B3EFB60042B028 /* KudoseUITests */,
 				59EDF70420B3EFB60042B028 /* Products */,
+				C96C9DF56B738F4474FA8E2D /* Pods */,
+				03B61183035400CA619AFFB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +297,10 @@
 		59EDF70520B3EFB60042B028 /* Kudose */ = {
 			isa = PBXGroup;
 			children = (
-				59EDF73420B3EFBE0042B028 /* New Group */,
+				59EDF73620B3EFCB0042B028 /* Controller */,
+				59EDF73520B3EFC40042B028 /* View */,
+				59EDF73420B3EFBE0042B028 /* Model */,
 				59EDF70620B3EFB60042B028 /* AppDelegate.swift */,
-				59EDF70820B3EFB60042B028 /* ViewController.swift */,
-				59EDF70A20B3EFB60042B028 /* Main.storyboard */,
 				59EDF70D20B3EFB60042B028 /* Assets.xcassets */,
 				59EDF70F20B3EFB60042B028 /* LaunchScreen.storyboard */,
 				59EDF71220B3EFB60042B028 /* Info.plist */,
@@ -126,11 +326,86 @@
 			path = KudoseUITests;
 			sourceTree = "<group>";
 		};
-		59EDF73420B3EFBE0042B028 /* New Group */ = {
+		59EDF73420B3EFBE0042B028 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				593EC12520BD21DB006232F0 /* Facebook */,
+				5901FF5E20B3F7EF0002E9E2 /* WebserviceHelper */,
+				5901FF5B20B3F7D90002E9E2 /* Constants */,
+				5901FF5820B3F7BC0002E9E2 /* UserDefaults */,
 			);
-			path = "New Group";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59EDF73520B3EFC40042B028 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59EDF70A20B3EFB60042B028 /* Main.storyboard */,
+				59EDF73720B3F09A0042B028 /* User.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59EDF73620B3EFCB0042B028 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59EEB81A20B6CAB100D23471 /* UserProfile */,
+				59EEB81920B6CAA300D23471 /* Chat */,
+				59EEB81820B6CA8F00D23471 /* Notification */,
+				59EEB81720B6CA8600D23471 /* Explore */,
+				5901FF6D20B42ED90002E9E2 /* Home */,
+				5901FF6A20B42E590002E9E2 /* Others */,
+				5901FF6720B41C800002E9E2 /* Tabbar */,
+				5901FF5320B3F7030002E9E2 /* User */,
+				59EDF70820B3EFB60042B028 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		59EEB81720B6CA8600D23471 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				593EC13420C0141E006232F0 /* ExploreDetailsVC.swift */,
+				595226EB20B81F5300ABBD47 /* CreatePostForExploreVC.swift */,
+				595226E920B810CC00ABBD47 /* ExploreVC.swift */,
+				595226F320B98A3200ABBD47 /* FilterPostCollectionCell.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		59EEB81820B6CA8F00D23471 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				59EEB81B20B6CBEC00D23471 /* NotificationVC.swift */,
+				59EEB81D20B6CC8D00D23471 /* NotificationCell.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		59EEB81920B6CAA300D23471 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				595226ED20B83ADC00ABBD47 /* ChatUserListCell.swift */,
+				59EEB81F20B6D30D00D23471 /* ChatUserListVC.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		59EEB81A20B6CAB100D23471 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				595226F120B95EAC00ABBD47 /* UserProfileVC.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		C96C9DF56B738F4474FA8E2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23E7EE78F467CF8EDBB82470 /* Pods-Kudose.debug.xcconfig */,
+				49E0A9746CF438124D46D796 /* Pods-Kudose.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +415,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59EDF72B20B3EFB60042B028 /* Build configuration list for PBXNativeTarget "Kudose" */;
 			buildPhases = (
+				E47A3EFAEB72D49D1441887E /* [CP] Check Pods Manifest.lock */,
 				59EDF6FF20B3EFB60042B028 /* Sources */,
 				59EDF70020B3EFB60042B028 /* Frameworks */,
 				59EDF70120B3EFB60042B028 /* Resources */,
+				29E1B5E0FA5062B2F00F3AF4 /* [CP] Embed Pods Frameworks */,
+				419BDD5E834FCB20B0C4CCA0 /* [CP] Copy Pods Resources */,
+				5901FF6620B3F9970002E9E2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -241,7 +520,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59EDF71120B3EFB60042B028 /* LaunchScreen.storyboard in Resources */,
+				59EDF73820B3F09A0042B028 /* User.storyboard in Resources */,
 				59EDF70E20B3EFB60042B028 /* Assets.xcassets in Resources */,
+				593EC12F20BFA6CE006232F0 /* LoadingCell.xib in Resources */,
 				59EDF70C20B3EFB60042B028 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,13 +543,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29E1B5E0FA5062B2F00F3AF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kudose/Pods-Kudose-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kudose/Pods-Kudose-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		419BDD5E834FCB20B0C4CCA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kudose/Pods-Kudose-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E47A3EFAEB72D49D1441887E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kudose-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59EDF6FF20B3EFB60042B028 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5901FF6220B3F7FA0002E9E2 /* WebService-Prefix.swift in Sources */,
+				59EEB81420B66BA500D23471 /* AllKeys_Msgs.swift in Sources */,
+				5901FF6C20B42E8B0002E9E2 /* BaseVC.swift in Sources */,
+				593EC13520C0141E006232F0 /* ExploreDetailsVC.swift in Sources */,
+				595226EC20B81F5300ABBD47 /* CreatePostForExploreVC.swift in Sources */,
+				59EFED1220B5958D00C0CE86 /* ChooseInterestCell.swift in Sources */,
+				5901FF5520B3F7240002E9E2 /* UserNameVC.swift in Sources */,
+				593EC13320BFB5B0006232F0 /* CommentsCell.swift in Sources */,
+				595226E820B7DCF500ABBD47 /* NewsFeedCell.swift in Sources */,
+				59EFED1020B593DE00C0CE86 /* ChooseInterestVC.swift in Sources */,
 				59EDF70920B3EFB60042B028 /* ViewController.swift in Sources */,
+				59EEB81C20B6CBEC00D23471 /* NotificationVC.swift in Sources */,
+				595226EE20B83ADC00ABBD47 /* ChatUserListCell.swift in Sources */,
+				59EEB80A20B66A8B00D23471 /* ForgotPasswordVC.swift in Sources */,
+				598F6F2820C105F000DF701F /* ChoosePasswordVC.swift in Sources */,
+				595226EA20B810CC00ABBD47 /* ExploreVC.swift in Sources */,
 				59EDF70720B3EFB60042B028 /* AppDelegate.swift in Sources */,
+				59EF90CB20BA77410058AF94 /* CommentsVC.swift in Sources */,
+				5901FF5720B3F7610002E9E2 /* UserEmailIDVC.swift in Sources */,
+				5901FF6920B41C9C0002E9E2 /* MainTabbarVC.swift in Sources */,
+				5901FF6420B3F7FA0002E9E2 /* WebServicesCollection.swift in Sources */,
+				595226F220B95EAC00ABBD47 /* UserProfileVC.swift in Sources */,
+				5901FF5A20B3F7C90002E9E2 /* UserDefaultManager.swift in Sources */,
+				59EEB80C20B66AAE00D23471 /* SignupVC.swift in Sources */,
+				59EEB80E20B66AC600D23471 /* UserBioVC.swift in Sources */,
+				59EEB81020B66AFB00D23471 /* SignInVC.swift in Sources */,
+				5901FF6F20B42F020002E9E2 /* HomeVC.swift in Sources */,
+				59EEB81620B6C7C300D23471 /* CreatePostVC.swift in Sources */,
+				5901FF5D20B3F7E30002E9E2 /* Constants.swift in Sources */,
+				59EEB81220B66B1D00D23471 /* ChooseUserNameVC.swift in Sources */,
+				59EEB82020B6D30D00D23471 /* ChatUserListVC.swift in Sources */,
+				593EC13120BFA6DA006232F0 /* LoadingCell.swift in Sources */,
+				595226F420B98A3200ABBD47 /* FilterPostCollectionCell.swift in Sources */,
+				59EFED0C20B582DE00C0CE86 /* FilterPostVC.swift in Sources */,
+				5901FF6320B3F7FA0002E9E2 /* HttpRequestManager.swift in Sources */,
+				59EEB81E20B6CC8D00D23471 /* NotificationCell.swift in Sources */,
+				59EFED0E20B5839A00C0CE86 /* FilterPostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +749,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +800,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -432,10 +810,17 @@
 		};
 		59EDF72C20B3EFB60042B028 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E7EE78F467CF8EDBB82470 /* Pods-Kudose.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ756W72NL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kudose/Model/Facebook",
+				);
 				INFOPLIST_FILE = Kudose/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxthon.Kudose;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,10 +831,17 @@
 		};
 		59EDF72D20B3EFB60042B028 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E0A9746CF438124D46D796 /* Pods-Kudose.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ756W72NL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kudose/Model/Facebook",
+				);
 				INFOPLIST_FILE = Kudose/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxthon.Kudose;
 				PRODUCT_NAME = "$(TARGET_NAME)";
